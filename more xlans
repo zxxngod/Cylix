@@ -1,0 +1,94 @@
+{
+  "clans": [
+    {
+      "name": "The Luminaries",
+      "description": "Enlightened beings guiding others with their wisdom and light.",
+      "attributes": {
+        "wisdom": 95,
+        "lightPower": 90,
+        "leadership": 85
+      }
+    },
+    {
+      "name": "ChronoPunk",
+      "description": "Time manipulators with a punk aesthetic, blending futuristic tech with a rebellious spirit.",
+      "attributes": {
+        "timeManipulation": 88,
+        "techSkill": 92,
+        "rebellion": 80
+      }
+    },
+    {
+      "name": "Martian",
+      "description": "Pioneers of the red planet with advanced technology and a deep connection to Martian landscapes.",
+      "attributes": {
+        "techAdvancement": 90,
+        "martianConnection": 85,
+        "exploration": 80
+      }
+    },
+    {
+      "name": "SolarPunk",
+      "description": "Champions of sustainable living and harmony with nature, harnessing solar energy.",
+      "attributes": {
+        "sustainability": 95,
+        "solarEnergy": 90,
+        "natureHarmony": 85
+      }
+    },
+    {
+      "name": "BioPunk",
+      "description": "Masters of biotechnology, merging organic and synthetic life forms.",
+      "attributes": {
+        "biotechSkill": 92,
+        "innovation": 88,
+        "adaptability": 85
+      }
+    },
+    {
+      "name": "Black Order",
+      "description": "A mysterious and darker faction with secrets and powers that are both feared and respected.",
+      "attributes": {
+        "mystery": 90,
+        "power": 88,
+        "respect": 85
+      }
+    },
+    {
+      "name": "Black Chronoa",
+      "description": "Timekeepers with a shadowy edge, controlling the flow of time with precision and secrecy.",
+      "attributes": {
+        "timeControl": 92,
+        "secrecy": 90,
+        "precision": 88
+      }
+    },
+    {
+      "name": "Dragon Cypher",
+      "description": "Warriors with dragon-like abilities, combining ancient wisdom with modern cryptic knowledge.",
+      "attributes": {
+        "dragonPower": 90,
+        "wisdom": 88,
+        "crypticKnowledge": 85
+      }
+    },
+    {
+      "name": "White Nova",
+      "description": "Radiant and powerful protectors of cosmic balance and purity.",
+      "attributes": {
+        "radiance": 95,
+        "cosmicBalance": 90,
+        "purity": 88
+      }
+    },
+    {
+      "name": "Ocean Void",
+      "description": "Dwellers of the deep, harnessing the power of the oceans and the mysteries within.",
+      "attributes": {
+        "oceanPower": 90,
+        "mystery": 88,
+        "depthConnection": 85
+      }
+    }
+  ]
+}
