@@ -13,3 +13,16 @@ def analyze_sentiment(text):
 text = "The atmosphere is tense and foreboding."
 sentiment = analyze_sentiment(text)
 print(sentiment)
+
+// Define a simple synth
+(
+SynthDef(\sophieSynth, {
+    arg freq = 440, amp = 0.5, dur = 1;
+    var env = EnvGen.kr(Env.perc(0.01, dur), doneAction: 2);
+    var osc = SinOsc.ar(freq) * env * amp;
+    Out.ar(0, osc);
+}).add;
+)
+
+// Play the synth
+Synth(\sophieSynth, [\freq, 440, \amp, 0.5, \dur, 2]);
