@@ -1,0 +1,15 @@
+import spacy
+
+# Load pre-trained model
+nlp = spacy.load("en_core_web_sm")
+
+# Analyze sentiment
+def analyze_sentiment(text):
+    doc = nlp(text)
+    sentiment = doc.cats
+    return sentiment
+
+# Example usage
+text = "The atmosphere is tense and foreboding."
+sentiment = analyze_sentiment(text)
+print(sentiment)
