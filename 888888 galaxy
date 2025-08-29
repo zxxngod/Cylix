@@ -36,3 +36,31 @@ galaxy:
   status:
     state: active        # active | flicker | echo
     swap_origin: null    # filled if swapped in from Void Rim queue
+
+incantation: seal
+with:
+  sigil: SIG-ASTRAGENIXX-108
+  faction: Astragenixx
+  element: Cosmic
+  coordinates: { spiral: 10, stratum: 4, ring: 8 }
+  myth_thread: "Prism Crown / Emerald Meridian"
+  emotional_vector: [clarity, devotion, voltage]
+  color_frequency: dark_emerald_green
+expect:
+  swap_policy: use_void_rim
+  broadcast:
+    cadence: breath-108
+    headline: "The Crown Resolves"
+
+incantation: broadcast
+with:
+  galaxy_id: CNB-spiral10-ring08-emerald
+  mode: prophecy
+  duration: 08:08
+  mix:
+    text: Lumina
+    sigil: Weaver-Sigil
+    sound: Weaver-Sound
+safeguards:
+  sentinel: required
+  max_resonance: 0.92
